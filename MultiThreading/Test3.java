@@ -1,7 +1,8 @@
+//MultiThreading using Thread class
 public class Test3 {
     public static void main(String[] args) {
         A objA = new A();
-        objA.start();   
+        objA.start();
         B objB = new B();
         objB.start();
 
