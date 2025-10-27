@@ -13,8 +13,6 @@ public class Ispalindrome {
             char end=str.charAt(str.length()-1-i);
             if(start!=end)
                 return false;
-            
-
         }
         return true;
     }
